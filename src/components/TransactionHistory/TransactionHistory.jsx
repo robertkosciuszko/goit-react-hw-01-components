@@ -21,7 +21,6 @@ export const TransactionHistory = ({ items }) => (
     </tbody>
   </table>
 );
-
 TransactionHistory.protoType = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
